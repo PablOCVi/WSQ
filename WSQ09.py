@@ -1,4 +1,4 @@
-#funcion
+#function
 def factorial(x):
 	a=x
 	respuesta=1
@@ -8,8 +8,14 @@ def factorial(x):
 	return respuesta
 #code
 print("Si ingresas un numero positivo, desplegare el factorial del mismo.")
-y=1
-x=int(input("Ingresa un numero positivo: "))
-Fac=factorial(x)
-if (x>0):
-	print("El factorial de: "+str(x)+" es: "+str(Fac))
+y="n"
+n="y"
+z=""
+while (z!=y):
+	x=int(input("Ingresa un numero positivo: "))
+	Fac=factorial(x)
+	if (x>0 or x==0):
+		print("El factorial de: "+str(x)+" es: "+str(Fac))
+		z=str(input("Necesitas el factorial de otro numero, presiona cualqioer tecla, si no presiona n.): "))
+print("Adios!")
+	
