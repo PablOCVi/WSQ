@@ -1,3 +1,5 @@
+#Pablo Cardenas A0163014
+#Quiz
 def triangles(sz):
 	for i in range(1,sz+1):
 		print("T"*i)
